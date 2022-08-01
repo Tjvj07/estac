@@ -1,0 +1,47 @@
+//ATRIBUTOS
+let nomeCliente;
+let foneCliente;
+let tipoVeiculo;
+let placa; 
+let numberVaga;
+let hrEntrada;
+
+nomeCliente: String
+foneCliente:Number
+tipoVeiculo:String
+placa:String
+numberVaga:Number
+hrEntrada:Number
+
+
+
+nomeCliente=prompt("Digite aqui o nome do Cliente:");
+foneCliente=prompt("Digite aqui o fone do Cliente:");
+tipoVeiculo=prompt("Digite aqui o tipo do veículo do Cliente:");
+placa=prompt("Digite aqui a placa do Cliente:");
+numberVaga=prompt("Digite aqui o numero da vaga do Cliente:");
+hrEntrada=prompt("Digite aqui a hora de entrada do Cliente:");
+
+//METODOS
+imprimir(){}
+calcImprTemp(){}
+calcImprValor(){} // R$ 1,5
+
+//construtor
+construtor (nomeCliente:String, foneCliente:number , tipoVeiculo:string , placa:string, numberVaga:number , hrEnatrada: number )
+{
+    this .nomeCliente = nomeCliente
+    this . foneCliente = foneCliente
+    este .tipoVeiculo = tipoVeiculo
+    este .placa = placa
+    este . numberVaga = numberVaga
+    this . hrEntrada = hrEntrada
+
+}
+var dadosTicket = new Ticket("Jhamal", 99999999, "carro", z00r40, 5, 14:05)
+console.log(dadosTicket)
+var tempo = new tempo()
+
+
+console.log("Nome:" +nomeCliente,"","Fone:"+foneCliente);
+console.log("Tipo Veículo:" +tipoVeiculo, "Placa:" +placa,"Nº vaga:" +numberVaga,"HR Entrada:" +hrEntrada);
